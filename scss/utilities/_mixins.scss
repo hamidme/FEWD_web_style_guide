@@ -1,0 +1,19 @@
+@mixin block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin img {
+  margin-top: 10px;
+  max-width: 100%;
+  @content;
+}
+
+@mixin themes-col($theme: $color-bg-theme-1) {
+  background-color: $theme;
+}
+
+@mixin btn-transition {
+  transition: background-color 0.2s linear, color 0.2s linear;
+}

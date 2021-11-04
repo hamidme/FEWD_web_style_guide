@@ -1,0 +1,45 @@
+// Descriptive color variables
+
+$white: #fff;
+$black: #000;
+$grey: #777;
+$viking: #58e1c1;
+$malibu: #51ddfc;
+$brick-red: #e4757a;
+$purple-mountain-majesty: #927bc1;
+$coral: #fd7856;
+$emerald: #50c878;
+$french-lilac: #deb2ee;
+$anakiwa: #7ee6fd;
+$vista-blue: #88d9a0;
+
+//functional color variables
+
+$color-primary: $viking;
+$color-secondary: $grey;
+$color-background: $viking;
+$color-text-link: $malibu;
+$color-bg-theme-1: $purple-mountain-majesty;
+$color-bg-theme-2: $coral;
+
+//button variants
+$btn-default: $malibu;
+$btn-default-light: lighten($btn-default, 15%);
+
+$btn-error: $brick-red;
+$btn-error-light: lighten($btn-error, 15%);
+
+$btn-info: $purple-mountain-majesty;
+$btn-info-light: lighten($btn-info, 15%);
+
+$btn-success: $emerald;
+$btn-success-light: lighten($btn-success, 15%);
+
+$btn-warning: $coral;
+$btn-warning-light: lighten($btn-warning, 15%);
+
+//font stack
+$font-stack-primary: "Lato", sans-serif;
+
+// Media query breakpoints
+$breakpoint: "min-width: 768px";
